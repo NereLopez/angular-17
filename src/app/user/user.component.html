@@ -1,5 +1,10 @@
+<section>
 @if (isLoggedIn) {
 <p>Bienvenido, {{ username }}</p>
+<img 
+(click)="greet()"
+alt="photo" src="https://www.w3schools.com/howto/img_avatar.png">
 } @else {
 <p>¡Inicia sesión!</p>
 }
+</section>
