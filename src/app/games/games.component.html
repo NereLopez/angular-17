@@ -1,1 +1,8 @@
-<p>games works!</p>
+ 
+  <h2>Lista de Juegos</h2>
+  <ul>
+    <li *ngFor="let game of games; track game id">
+      {{ game.name }}
+    </li>
+  </ul>
+ 
